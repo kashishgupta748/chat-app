@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="chat-container">
+      
+      <!-- Online Users List -->
+      <div class="online-users">
+        <strong>Online Users:</strong>
+        <ul>
+          <li>John Doe</li>
+          <li>Jane Smith</li>
+          <li>Mike Johnson</li>
+        </ul>
+      </div>
+      
+      <div class="chat-header">
+        <h4>Chat with John</h4>
+      </div>
+      
+      <div id="messages" class="chat-box">
+        <!-- Messages will appear here -->
+      </div>
+
+      <div class="input-group chat-input">
+        <input type="text" id="messageInput" class="form-control" placeholder="Type a message">
+        <div class="input-group-append">
+          <button class="btn btn-primary" id="sendButton">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
